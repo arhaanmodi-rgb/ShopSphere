@@ -4,7 +4,7 @@ ShopSphere is a full-featured, next-generation e-commerce web platform engineere
 
 ---
 
-## 📸 Visual Showcase & Core Features
+## 📸 Complete Visual Showcase (All 14 Features)
 
 ### 1. Secure Authentication & User Sign In
 Clean modal card authentication with password show/hide toggle, JWT authentication, and member session persistence.
@@ -60,9 +60,33 @@ Standardized GST Tax Invoice modal with two-column layout (Billed To vs. Fulfill
 
 ---
 
-### 10. Admin Operations Control & Resolution Center
+### 10. Admin Order Management & Return/Exchange Center
 Live PostgreSQL control center with real-time KPI metrics (Total Revenue, Orders Received, In Transit, Out for Delivery, Completed, Returns & Exchanges), status dropdowns, search by return reason, and one-click **Approve Return & Refund ✓** / **Approve Exchange ✓** / **Reject ✕** controls.
 ![Admin Operations Control](screenshots/10_admin_operations_control.png)
+
+---
+
+### 11. Admin Catalog, Dynamic Pricing & Stock Control
+Complete inventory management with instant inline price adjustments, stock quantity steppers, Out-of-Stock toggles (`Mark OOS`), category filters, and an **Add Product** modal.
+![Admin Catalog & Inventory](screenshots/11_admin_catalog_and_inventory.png)
+
+---
+
+### 12. Admin Coupons & Promotions Engine
+Coupon creator supporting percentage (%) and flat (₹) discounts, custom minimum order values, active promo status toggling, and 5-hour expiration urgency countdown clocks.
+![Admin Coupons & Promos](screenshots/12_admin_coupons_and_promotions.png)
+
+---
+
+### 13. Admin Flash Deals & Deal of the Day Manager
+Promote any catalog product to Deal of the Day with customized discount percentages, automatic deal pricing calculations, and live synchronized countdown clocks with customer storefronts.
+![Admin Flash Deals Manager](screenshots/13_admin_flash_deals_manager.png)
+
+---
+
+### 14. Admin Sales Analytics & Audit CSV Export
+Comprehensive sales analytics displaying Total Realized Revenue, Average Order Value (AOV), Total Units Sold, Category Revenue Distribution bar charts, Top-Selling Products Leaderboard, and one-click **Download CSV** audit exports.
+![Admin Sales Analytics & Export](screenshots/14_admin_sales_analytics_and_export.png)
 
 ---
 
@@ -81,9 +105,10 @@ Live PostgreSQL control center with real-time KPI metrics (Total Revenue, Orders
 | **Feedback** | Verified Buyer Reviews | 5-star rating breakdown bars and inline review composer |
 | **Admin** | Order Management | Full lifecycle tracking (`Order Received` → `Shipped` → `Out for Delivery` → `Delivered`) |
 | **Admin** | Return & Exchange Center | Dedicated KPI, filter tabs, customer reason callouts, and one-click resolution approvals |
-| **Admin** | Inventory & Prices | Out-of-stock toggles, inline quantity updates, and live price adjustments |
+| **Admin** | Catalog & Stock Control | In-line price updates, stock units counters, and Out-of-Stock toggles |
+| **Admin** | Coupon Code Engine | Create and manage custom discount codes with minimum order thresholds and timers |
 | **Admin** | Flash Deals Manager | Add/pause/delete live deals with custom discount percentages and end dates |
-| **Admin** | Ledger CSV Export | Download complete order history with customer information and addresses |
+| **Admin** | Sales Analytics & CSV Export | Real-time gross revenue, AOV, category graphs, leaderboard, and CSV download |
 
 ---
 
