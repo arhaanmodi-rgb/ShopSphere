@@ -1,64 +1,93 @@
-﻿# 🛍️ ShopSphere - Modern Full-Stack E-Commerce Platform
+﻿# 🛍️ ShopSphere - Complete Full-Stack E-Commerce Platform
 
 ShopSphere is a full-featured, next-generation e-commerce web platform engineered with **React 19 + TypeScript + Vite** on the frontend and **FastAPI + PostgreSQL / SQLAlchemy** on the backend.
 
 ---
 
-## 📸 Screenshots & Showcase
+## 📸 Visual Showcase & Core Features
 
 ### 1. Secure Authentication & User Sign In
-Clean modal card authentication with password show/hide toggle and instant access.
+Clean modal card authentication with password show/hide toggle, JWT authentication, and member session persistence.
 ![Sign In](screenshots/01_signin_page.png)
 
 ---
 
 ### 2. Storefront Hero & Trust Assurances
-Modern headline, interactive search bar, quick voice filter, member badge, cart counter, and 10-Day Return & Exchange assurance.
+Modern headline, interactive live search bar, quick voice filter, member badge, cart counter, and 10-Day Return & Exchange doorstep assurance.
 ![Hero Section](screenshots/02_hero_section.png)
 
 ---
 
 ### 3. Deal of the Day & Live Flash Deals
-Admin-curated limited-time flash discounts with real-time countdown timer.
+Admin-curated limited-time flash discounts with real-time countdown timer, dynamic percentage savings, and discounted checkout.
 ![Deal of the Day](screenshots/03_deal_of_the_day.png)
 
 ---
 
 ### 4. Categorized Product Grid & Ratings
-Responsive multi-column catalog with category labels, popular badges, star reviews count, and quick Add to Cart.
+Responsive multi-column catalog with category labels, popular badges, verified star ratings count, and quick Add to Cart.
 ![All Products Grid](screenshots/04_all_products_grid.png)
 
 ---
 
 ### 5. Structured Product Details & Wishlist
-2-column layout with sticky image gallery, COD verification badge, interactive wishlist button, quantity stepper, free delivery rules, and inline review composer.
+2-column layout with sticky image viewport, COD verification badge, interactive wishlist button (`🤍 Save to Wishlist` ⟷ `❤️ In Wishlist`), quantity stepper, free delivery policy rules, and guarantee perks.
 ![Product Details](screenshots/05_product_details.png)
 
 ---
 
-## 🌟 Key Features
-
-### 🛒 Customer Experience
-- **Interactive Catalog**: 200+ curated items across Electronics, Fashion, Footwear, and Accessories.
-- **Deal of the Day**: Dynamic countdown timers with live discounted pricing.
-- **Wishlist System**: One-click heart toggle with saved state and drawer preview.
-- **Cart & Dynamic Delivery Pricing**: Free delivery on orders above ₹999; ₹80 fee for orders below ₹999.
-- **24-Hour Easy Cancellation**: Customers can cancel unprocessed orders within 24 hours of placement directly from their dashboard.
-- **10-Day Post-Delivery Return & Exchange**: Customer self-service portal to request Doorstep Exchange or Full Return & Refund with specific reasons and comments.
-- **Verified Buyer Reviews & Ratings**: Star breakdown bars and inline review composer on product pages.
-- **Official GST Tax Invoice**: Formatted invoice modal with printable sheet, itemized breakdown, CGST/SGST taxes, barcode, and paid stamp.
-
-### 🛡️ Admin Dashboard & Control Center
-- **Order Lifecycle Management**: Live status tracking from `Order Received` → `Shipped` → `Out for Delivery` → `Delivered`.
-- **Dedicated Returns & Exchanges Portal**: Real-time KPI counter, filter tabs with alert badges, customer return reason details, and one-click **Approve Return & Refund ✓** / **Approve Exchange ✓** / **Reject ✕** controls.
-- **Inventory & Catalog Control**: Out-of-stock toggles, inline stock quantity updates, and dynamic price edits.
-- **Coupon Code Engine**: Percentage and flat discount coupons with minimum order amount requirements and expiry countdown timers.
-- **Flash Deals Manager**: Admin can promote any catalog item to Deal of the Day with custom discount percentage and duration.
-- **CSV Orders Export**: Export complete ledger with customer details, shipping addresses, payment methods, and totals.
+### 6. Inline Verified Customer Reviews
+Interactive 5-star rating selector with real-time descriptive feedback hints, title/summary input, detailed comments, and instantaneous feedback publishing directly inline.
+![Customer Ratings & Reviews](screenshots/06_inline_review_composer.png)
 
 ---
 
-## 🛠️ Tech Stack
+### 7. Shopping Cart, Dynamic Delivery & Promo Codes
+Visual shopping bag with free delivery qualification tracker (Free delivery above ₹999; ₹80 fee under ₹999), promotional coupon code engine (`MEGA500`, `SPHERE10`), GST breakdown, and COD checkout.
+![Shopping Cart & Coupons](screenshots/07_shopping_cart_and_coupons.png)
+
+---
+
+### 8. My Orders, Tracking & 10-Day Replacements
+Real-time shipment tracking stepper, 24-hour cancellation window indicator, doorstep delivery address display, items breakdown, and self-service 10-day post-delivery Return/Exchange resolution portal.
+![My Orders & Tracking](screenshots/08_my_orders_and_tracking.png)
+
+---
+
+### 9. Official GST Tax Invoice & Print Engine
+Standardized GST Tax Invoice modal with two-column layout (Billed To vs. Fulfillment Hub), HSN/SAC codes, CGST/SGST (9% + 9%) itemized calculation, barcode strip, terms & conditions, and Cash on Delivery stamp.
+![GST Tax Invoice](screenshots/09_official_gst_tax_invoice.png)
+
+---
+
+### 10. Admin Operations Control & Resolution Center
+Live PostgreSQL control center with real-time KPI metrics (Total Revenue, Orders Received, In Transit, Out for Delivery, Completed, Returns & Exchanges), status dropdowns, search by return reason, and one-click **Approve Return & Refund ✓** / **Approve Exchange ✓** / **Reject ✕** controls.
+![Admin Operations Control](screenshots/10_admin_operations_control.png)
+
+---
+
+## 🌟 Complete Feature Matrix
+
+| Category | Feature | Description |
+|---|---|---|
+| **Storefront** | 200+ Products Catalog | Electronics, Fashion, Footwear, and Accessories with real-time stock tracking |
+| **Storefront** | Deal of the Day | Timed flash sales with custom discount percentages and countdown timers |
+| **Storefront** | Interactive Wishlist | One-click heart toggle with saved state and navigation count badge |
+| **Checkout** | Dynamic Delivery Fees | Free delivery on orders ≥ ₹999; flat ₹80 fee on orders < ₹999 |
+| **Checkout** | Coupon Discount Engine | Percentage (%) or Flat (₹) promo codes with minimum order amount restrictions |
+| **Post-Order** | 24-Hour Easy Cancellation | One-click cancellation within 24 hours of placement directly from order history |
+| **Post-Order** | 10-Day Return & Exchange | Self-service portal to request Doorstep Replacement or Return & Refund with reasons |
+| **Post-Order** | GST Tax Invoice | Printable/downloadable official invoice with itemized tax and barcode |
+| **Feedback** | Verified Buyer Reviews | 5-star rating breakdown bars and inline review composer |
+| **Admin** | Order Management | Full lifecycle tracking (`Order Received` → `Shipped` → `Out for Delivery` → `Delivered`) |
+| **Admin** | Return & Exchange Center | Dedicated KPI, filter tabs, customer reason callouts, and one-click resolution approvals |
+| **Admin** | Inventory & Prices | Out-of-stock toggles, inline quantity updates, and live price adjustments |
+| **Admin** | Flash Deals Manager | Add/pause/delete live deals with custom discount percentages and end dates |
+| **Admin** | Ledger CSV Export | Download complete order history with customer information and addresses |
+
+---
+
+## 🛠️ Tech Stack & Architecture
 
 - **Frontend**: React 19, TypeScript, Vite, React Router v7, Vanilla CSS3 with Modern Variables & Responsive Grids.
 - **Backend**: Python 3.11+, FastAPI, SQLAlchemy ORM, Pydantic v2, PostgreSQL / SQLite.
@@ -70,8 +99,8 @@ Responsive multi-column catalog with category labels, popular badges, star revie
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/<your-username>/shophere.git
-cd shophere
+git clone https://github.com/arhaanmodi-rgb/ShopSphere.git
+cd ShopSphere
 ```
 
 ### 2. Backend Setup
