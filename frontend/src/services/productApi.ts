@@ -1,7 +1,7 @@
 import { products as localProducts } from "../data/products";
 import type { Product } from "../data/products";
 
-const API_URL = "http://localhost:8000";
+const API_URL = import.meta.env.VITE_API_URL || "http://localhost:8000";
 
 export type { Product };
 
